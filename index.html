@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shri Hari — Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Shri Hari, a computer science student building clean, accessible things for the web.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top">Shri Hari</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Shri Hari</h1>
+        <p class="tagline">
+          Computer science student building clean, accessible things for the web.
+          Currently learning the fundamentals and shipping small projects.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <p>
+            I'm a computer science student with an interest in front-end development
+            and clean interface design. I like turning rough ideas into simple layouts
+            that work well on any screen, and I care about the details most people
+            never notice.
+          </p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Education</span>
+              <span class="meta-value">B.E. Computer Science and Engineering</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Institution</span>
+              <span class="meta-value">KSR College of Engineering</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Duration</span>
+              <span class="meta-value">2025 &ndash; 2029</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Focus</span>
+              <span class="meta-value">HTML, CSS, JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-lead">Tools and technologies I work with.</p>
+
+        <h3 class="group-title">Languages</h3>
+        <ul class="chip-list">
+          <li class="chip">HTML5</li>
+          <li class="chip">CSS3</li>
+          <li class="chip">JavaScript</li>
+          <li class="chip">Python</li>
+          <li class="chip">SQL</li>
+        </ul>
+
+        <h3 class="group-title">Frameworks &amp; Libraries</h3>
+        <ul class="chip-list">
+          <li class="chip">React</li>
+          <li class="chip">Node.js</li>
+          <li class="chip">Express</li>
+          <li class="chip">Bootstrap</li>
+        </ul>
+
+        <h3 class="group-title">Tools</h3>
+        <ul class="chip-list">
+          <li class="chip">Git</li>
+          <li class="chip">GitHub</li>
+          <li class="chip">VS Code</li>
+          <li class="chip">Figma</li>
+          <li class="chip">Postman</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-lead">Things I've built to practise what I learn.</p>
+
+        <div class="project-grid">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3 class="card-title">Personal Portfolio Website</h3>
+            <p class="card-text">
+              A responsive single-page portfolio built with semantic HTML and modern
+              CSS. Focuses on layout, spacing and accessibility basics.
+            </p>
+            <ul class="chip-list chip-list-sm">
+              <li class="chip">HTML</li>
+              <li class="chip">CSS</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Live site</a>
+              <a href="#">Code</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3 class="card-title">Student Attendance System</h3>
+            <p class="card-text">
+              A desktop application for recording attendance and generating monthly
+              reports for each class, backed by a local database.
+            </p>
+            <ul class="chip-list chip-list-sm">
+              <li class="chip">Python</li>
+              <li class="chip">Tkinter</li>
+              <li class="chip">SQLite</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Live site</a>
+              <a href="#">Code</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3 class="card-title">Weather Dashboard</h3>
+            <p class="card-text">
+              Fetches a five-day forecast from a public weather API and renders it
+              with dynamic icons, error states and a responsive layout.
+            </p>
+            <ul class="chip-list chip-list-sm">
+              <li class="chip">JavaScript</li>
+              <li class="chip">REST API</li>
+              <li class="chip">CSS</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Live site</a>
+              <a href="#">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">
+          Open to internships, freelance work, or just a conversation about the web.
+        </p>
+
+
+
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/shri47380-svg">
+              <span class="social-name">GitHub</span>
+              <span class="social-handle">@shri47380-svg</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/shri-hari-c-b9612a381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <span class="social-name">LinkedIn</span>
+              <span class="social-handle">in/yourprofile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="social-name">Email</span>
+              <span class="social-handle">shri47380@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Shri Hari. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
